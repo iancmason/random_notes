@@ -1,4 +1,9 @@
 # Meteor Intro Walkthrough
+
+Go to http://serixscorpio.meteor.com/.  This is an example of a simple hacker news clone built in meteor.
+
+source: https://github.com/serixscorpio/microscope
+
 ### Magical Meteor
 The most fascinating aspect of Meteor, I think, is _reactive templating_.  It means when you change some source of information in Meteor, it is immediately reflected in your template.  An example is multiple people collaborating on a google doc.  You can see what other people are typing in while they are typing without the need to reload.  That's _reactivity_.
 
