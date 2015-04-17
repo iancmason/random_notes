@@ -35,7 +35,7 @@ The most fascinating aspect of Meteor, I think, is _reactive templating_.  It me
 1. This brings us to __reactive templating__ terminology.
    * __reactive source__ (__reactive data__): Making a javascript object reactive is like training a dog to bark if it feels a need to pee.  If something inside the javascript object changes, you want to be notified whenever something inside it changes.
    * __reactive computations__ (__reactive contexts__): When a dog barks, you want to be around to take the dog outside.  Otherwise it'd be pointless to train the dog.  Similarly, a reactive source needs something to 'listen' to its notifications.  A reactive computation is a block of code that will _re-run whenever a reactive source within the block changes_.
-   * Session variabls are __reactive sources__
+   * Session variables are __reactive sources__
    * Template helpers are __reactive computations__
    * putting these two concepts together: the `counter` helper will re-run whenever the `counter` Session variable changes.  This is the basis of Meteor's reactivity.
 
